@@ -19,15 +19,15 @@ A set of simple scripts/bookmarklets that change the font of the website you are
 
 ##How to Use
 
-1) Open the [bookmarklets](https://github.com/fourtonfish/redacted.js/tree/master/bookmarklets) folder
-2) Open one/each of the *bookmarklet-redacted-???.js* files, copy the content, and:
+1. Open the [bookmarklets](https://github.com/fourtonfish/redacted.js/tree/master/bookmarklets) folder
+2. Open one/each of the *bookmarklet-redacted-???.js* files, copy the content, and:
 
 **In Google Chrome:**
 
-3) Right-click the *Bookmarks bar*
-4) Click *Add page...*
-5) As *Name* you can use the name of the font you chose
-6) Paste the code you copied in step #2 into the *URL* field
+3. Right-click the *Bookmarks bar*
+4. Click *Add page...*
+5. As *Name* you can use the name of the font you chose
+6. Paste the code you copied in step #2 into the *URL* field
 
 ![Redacted Regular](https://raw.githubusercontent.com/fourtonfish/redacted.js/master/images/installation-chrome.png)
 
