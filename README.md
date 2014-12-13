@@ -17,6 +17,18 @@ A set of simple scripts/bookmarklets that change the font of the website you are
 ![Redacted Script Light](https://raw.githubusercontent.com/fourtonfish/redacted.js/master/examples/redacted-script-light.png)
 *Redacted Script Light*
 
+##How to Use
+
+*Updating*
+
+
+##Known Issues
+
+This is a public beta. there are some issues I'm working on and also some limitations:
+
+* the script doesn't work too well on very slow connections
+* watch out for missing glyphs! (especially when a site uses icon web fonts such as [Font Awesome](http://fontawesome.io/))
+* the script will not replace text that has been inserted as an image :-)
 
 ##Changelog
 
