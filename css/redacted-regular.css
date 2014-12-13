@@ -1,0 +1,13 @@
+@font-face{
+  font-family: 'Redacted Regular';
+  src: url(https://cdn-ftfish.rhcloud.com/redactedjs/fonts/redacted-regular.eot);
+  src: url(https://cdn-ftfish.rhcloud.com/redactedjs/fonts/redacted-regular.woff) format('woff'),
+       url(https://cdn-ftfish.rhcloud.com/redactedjs/fonts/redacted-regular.svg) format('svg');
+}
+
+/*
+.redacted-regular{
+body{
+  font-family: 'Redacted Regular !important';
+}
+*/

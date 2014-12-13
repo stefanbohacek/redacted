@@ -1,0 +1,12 @@
+@font-face{
+  font-family: 'Redacted Script Regular';
+  src: url(https://cdn-ftfish.rhcloud.com/redactedjs/fonts/redacted-script-regular.eot);
+  src: url(https://cdn-ftfish.rhcloud.com/redactedjs/fonts/redacted-script-regular.woff) format('woff'),
+       url(https://cdn-ftfish.rhcloud.com/redactedjs/fonts/redacted-script-regular.svg) format('svg');
+}
+
+/*
+.redacted-script-regular{
+  font-family: 'Redacted Script Regular !important';
+}
+*/
