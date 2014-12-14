@@ -17,6 +17,9 @@ A set of simple scripts/bookmarklets that change the font of the website you are
 ![Redacted Script Light](https://raw.githubusercontent.com/fourtonfish/redacted.js/master/examples/redacted-script-light.png)
 *Redacted Script Light*
 
+![Redacted -- Selected text only](https://raw.githubusercontent.com/fourtonfish/redacted.js/master/examples/redacted-selected-text.png)
+*New in 0.0.2 -- Apply any of the fonts above to a selected text*
+
 ##How to Use
 
 1. Open the [bookmarklets](https://github.com/fourtonfish/redacted.js/tree/master/bookmarklets) folder
@@ -39,10 +42,13 @@ A set of simple scripts/bookmarklets that change the font of the website you are
 
 This is a public beta. there are some issues I'm working on and also some limitations:
 
-* the script doesn't work too well on very slow connections
-* watch out for missing glyphs! (especially when a site uses icon web fonts such as [Font Awesome](http://fontawesome.io/))
-* the script will not replace text that has been inserted as an image :-)
+* A modern browser is necessary.
+* The script doesn't work too well on very slow connections.
+* Watch out for missing glyphs! (especially when a site uses icon web fonts such as [Font Awesome](http://fontawesome.io/)).
+* The script will not replace text that has been inserted as an image :-)
+* This script may not work on some sites (for example Github).
 
 ##Changelog
 
+* **0.0.2** Bookmarklets to apply Redacted Font only to selected text.
 * **0.0.1** First release.
