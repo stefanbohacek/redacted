@@ -47,8 +47,18 @@ This is a public beta. there are some issues I'm working on and also some limita
 * Watch out for missing glyphs! (especially when a site uses icon web fonts such as [Font Awesome](http://fontawesome.io/)).
 * The script will not replace text that has been inserted as an image :-)
 * This script may not work on some sites (for example Github).
+* 
 
 ##Changelog
 
 * **0.0.2** Bookmarklets to apply Redacted Font only to selected text.
 * **0.0.1** First release.
+
+##Notes
+
+
+The way the bookmarklets work is that they actually inject a script (from the JS folder) that in turn injects custom CSS and then applies a class to all elements on the page. Now, while some people may object to this approach (injecting a 3rd party script that does all the work instead of doing it all transparently in the bookmarklet), two points:
+ 
+The project is open source -- you can easily modify this
+This modular approach allows me to fix bugs/improve code without people having to reinstall the bookmarklet
+ 
