@@ -13,5 +13,15 @@
   var span = document.createElement("span");
   span.style.fontFamily = "Redacted Script Bold";
   span.appendChild(selectedText);
+  exploreChildren(span);
   selection.insertNode(span);
+  function exploreChildren(element) {
+    element.style.fontFamily = "Redacted Script Bold";
+    var elementChildren = element.children;
+    if(elementChildren !== undefined && elementChildren.length > 0) {
+      for(var i = 0; i < elementChildren.length; i++) {
+        exploreChildren(elementChildren[i]);
+      }
+    }
+  }
 })();
