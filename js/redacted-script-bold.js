@@ -3,7 +3,7 @@
       linkElement = document.createElement("link");
   linkElement.setAttribute("rel", "stylesheet");
   linkElement.setAttribute("type", "text/css");
-  linkElement.setAttribute("href", "https://cdn-ftfish.rhcloud.com/redactedjs/css/redacted-script-bold.css");
+  linkElement.setAttribute("href", "https://redacted.glitch.me/css/redacted-script-bold.css");
   headElement.appendChild(linkElement);
   Array.prototype.map.call(document.querySelectorAll("*"), function(curr){curr.style.fontFamily = "Redacted Script Bold";});
 })();

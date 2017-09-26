@@ -1,9 +1,9 @@
-#REDACTED.JS
+# REDACTED.JS
 
-##About
+## About
 A set of simple scripts/bookmarklets that change the font of the website you are visiting to the [Redacted font](https://github.com/christiannaths/Redacted-Font) created by [Christian Naths](https://github.com/christiannaths).
 
-##Examples
+## Examples
 
 ![Redacted Regular](https://raw.githubusercontent.com/fourtonfish/redacted.js/master/examples/redacted-regular.png)
 *Redacted Regular*
@@ -20,10 +20,10 @@ A set of simple scripts/bookmarklets that change the font of the website you are
 ![Redacted -- Selected text only](https://raw.githubusercontent.com/fourtonfish/redacted.js/master/examples/redacted-selected-text.png)
 *New in 0.0.2 -- Apply any of the fonts above to a selected text only*
 
-##How to Use
+## How to Use
 
 1. Open the [bookmarklets](https://github.com/fourtonfish/redacted.js/tree/master/bookmarklets) folder
-2. Open one/each of the *bookmarklet-redacted-???.js* files, copy the content, and:
+2. Open one/each of the `bookmarklet-redacted-???.js` files, copy the content, and:
 
 **In Google Chrome:**
 
@@ -48,7 +48,7 @@ A set of simple scripts/bookmarklets that change the font of the website you are
 
 Now you can simply open the bookmarklet on any page where you want to use it. When using any of the *"Redacted ??? Selected Text"* bookmarklets, select some text on the page first.
 
-##Known Issues
+## Known Issues
 
 This is a public alpha. There are some issues I'm working on and also some limitations:
 
@@ -58,12 +58,12 @@ This is a public alpha. There are some issues I'm working on and also some limit
 * The script will not replace text that has been inserted as an image :-)
 * This script may not work on some sites (for example Github).
 
-##Changelog
+## Changelog
 
 * **0.0.2** Bookmarklets to apply Redacted Font only to selected text.
 * **0.0.1** First release.
 
-##Notes
+## Notes
 
 The way the bookmarklets work is that they actually inject a script (from the JS folder) that in turn injects custom CSS and then applies a class to either the selected text or all elements on the page. Now, while some people may object to this approach (injecting a 3rd party script that does all the work instead of doing it all transparently in the bookmarklet), two points:
  
