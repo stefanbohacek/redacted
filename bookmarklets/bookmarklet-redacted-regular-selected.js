@@ -1,1 +1,1 @@
-javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://cdn-ftfish.rhcloud.com/redactedjs/js/redacted-regular-selected.js'})();
+javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://redacted.glitch.me/js/redacted-regular-selected.js'})();
