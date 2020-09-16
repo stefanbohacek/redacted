@@ -1,8 +1,8 @@
 @font-face{
   font-family: 'Redacted Script Light';
-  src: url(https://cdn-ftfish.rhcloud.com/redactedjs/fonts/redacted-script-light.eot);
-  src: url(https://cdn-ftfish.rhcloud.com/redactedjs/fonts/redacted-script-light.woff) format('woff'),
-       url(https://cdn-ftfish.rhcloud.com/redactedjs/fonts/redacted-script-light.svg) format('svg');
+  src: url(https://redacted.glitch.me/fonts/redacted-script-light.eot);
+  src: url(https://redacted.glitch.me/fonts/redacted-script-light.woff) format('woff'),
+       url(https://redacted.glitch.me/fonts/redacted-script-light.svg) format('svg');
 }
 
 /*
