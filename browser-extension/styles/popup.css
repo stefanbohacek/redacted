@@ -1,0 +1,25 @@
+ul.no-bullets{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.w-100{
+    width: 100%;
+}
+.p-1{
+    padding:  10px;
+}
+
+.pb-1{
+    padding-bottom:  10px;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px;
+}

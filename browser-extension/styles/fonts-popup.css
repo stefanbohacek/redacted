@@ -1,0 +1,55 @@
+@font-face{
+  font-family: 'Redacted Regular';
+  src: url('../fonts/redacted-regular.eot');
+  src: url('../fonts/redacted-regular.woff') format('woff'),
+       url('../fonts/redacted-regular.svg') format('svg');
+}
+
+@font-face{
+  font-family: 'Redacted Script Bold';
+  src: url('../fonts/redacted-script-bold.eot');
+  src: url('../fonts/redacted-script-bold.woff') format('woff'),
+       url('../fonts/redacted-script-bold.svg') format('svg');
+}
+
+@font-face{
+  font-family: 'Redacted Script Light';
+  src: url('../fonts/redacted-script-light.eot');
+  src: url('../fonts/redacted-script-light.woff') format('woff'),
+       url('../fonts/redacted-script-light.svg') format('svg');
+}
+
+@font-face{
+  font-family: 'Redacted Script Regular';
+  src: url('../fonts/redacted-script-regular.eot');
+  src: url('../fonts/redacted-script-regular.woff') format('woff'),
+       url('../fonts/redacted-script-regular.svg') format('svg');
+}
+
+.redacted-regular{
+  font-family: 'Redacted Regular';
+}
+
+.redacted-script-bold{
+  font-family: 'Redacted Script Bold';
+}
+
+.redacted-script-light{
+  font-family: 'Redacted Script Light';
+}
+
+.redacted-script-regular{
+  font-family: 'Redacted Script Regular';
+}
+
+.font-1x{
+  font-size: 1.2rem;
+}
+
+.font-2x{
+  font-size: 2rem;
+}
+
+.font-3x{
+  font-size: 2.5rem;
+}
