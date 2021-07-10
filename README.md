@@ -1,4 +1,4 @@
-![Redacted text on ](https://raw.githubusercontent.com/fourtonfish/redacted/master/images/preview-1400x560.png)
+![Redacted text on ](https://raw.githubusercontent.com/fourtonfish/redacted/master/images/preview-920x680.png)
 
 # REDACTED
 
