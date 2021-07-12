@@ -1,6 +1,6 @@
 {
     "name": "Redacted",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Redact text on a page before taking a screenshot of it.",
     "homepage_url": "https://fourtonfish.com/project/redacted-js/",
     "manifest_version": 2,
