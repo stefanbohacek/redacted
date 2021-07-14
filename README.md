@@ -4,4 +4,4 @@
 
 Redact text on a web page before taking a screenshot using the [Redacted](https://github.com/christiannaths/Redacted-Font) font created by [Christian Naths](https://christiannaths.com/).
 
-Coming soon to Chrome and Firefox.
+[Learn more and install](https://fourtonfish.com/project/redacted/)
