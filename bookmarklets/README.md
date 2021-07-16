@@ -33,7 +33,7 @@ A set of simple scripts/bookmarklets that change the font of the website you are
 6. Paste the code you copied in step #2 into the *URL* field
 7. Click "Save"
 
-![Redacted Regular](https://raw.githubusercontent.com/fourtonfish/redacted.js/master/images/installation-chrome.png)
+![Redacted Regular](https://github.com/fourtonfish/redacted/blob/master/bookmarklets/images/installation-chrome.png)
 
 **In Firefox:**
 
@@ -43,7 +43,7 @@ A set of simple scripts/bookmarklets that change the font of the website you are
 6. Paste the code you copied in step #2 into the *Location* field
 7. Click "Add"
 
-![Redacted Regular](https://raw.githubusercontent.com/fourtonfish/redacted.js/master/images/installation-chrome.png)
+![Redacted Regular](https://github.com/fourtonfish/redacted/blob/master/bookmarklets/images/installation-chrome.png)
 
 
 Now you can simply open the bookmarklet on any page where you want to use it. When using any of the *"Redacted ??? Selected Text"* bookmarklets, select some text on the page first.
