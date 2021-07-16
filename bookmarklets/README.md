@@ -5,19 +5,19 @@ A set of simple scripts/bookmarklets that change the font of the website you are
 
 ## Examples
 
-![Redacted Regular](https://raw.githubusercontent.com/fourtonfish/redacted.js/master/examples/redacted-regular.png)
+![Redacted Regular](https://github.com/fourtonfish/redacted/blob/master/bookmarklets/examples/redacted-regular.png)
 *Redacted Regular*
 
-![Redacted Script Regular](https://raw.githubusercontent.com/fourtonfish/redacted.js/master/examples/redacted-script-regular.png)
+![Redacted Script Regular](https://github.com/fourtonfish/redacted/blob/master/bookmarklets/examples/redacted-script-regular.png)
 *Redacted Script Regular*
 
-![Redacted Script Bold](https://raw.githubusercontent.com/fourtonfish/redacted.js/master/examples/redacted-script-bold.png)
+![Redacted Script Bold](https://github.com/fourtonfish/redacted/blob/master/bookmarklets/examples/redacted-script-bold.png)
 *Redacted Script Bold*
 
-![Redacted Script Light](https://raw.githubusercontent.com/fourtonfish/redacted.js/master/examples/redacted-script-light.png)
+![Redacted Script Light](https://github.com/fourtonfish/redacted/blob/master/bookmarklets/examples/redacted-script-light.png)
 *Redacted Script Light*
 
-![Redacted -- Selected text only](https://raw.githubusercontent.com/fourtonfish/redacted.js/master/examples/redacted-selected-text.png)
+![Redacted -- Selected text only](https://github.com/fourtonfish/redacted/blob/master/bookmarklets/examples/redacted-selected-text.png)
 *New in 0.0.2 -- Apply any of the fonts above to a selected text only*
 
 ## How to Use
