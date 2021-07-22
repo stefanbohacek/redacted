@@ -17,4 +17,13 @@ ready( function(){
       } );
     } );
   } );
+  document.querySelectorAll( '.clear-styles' ).forEach( function( btn ){
+    btn.addEventListener( 'click', function( ev ){
+      chrome.tabs.query( { active: true, currentWindow: true }, function( activeTabs ){
+        chrome.tabs.sendMessage( activeTabs[0].id, {
+          action: 'clear_styles'
+        } );
+      } );
+    } );
+  } );
 } );
