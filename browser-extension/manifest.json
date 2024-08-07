@@ -1,34 +1,56 @@
 {
-    "name": "Redacted",
-    "version": "1.0.2",
-    "description": "Redact text on a page before taking a screenshot of it.",
-    "homepage_url": "https://fourtonfish.com/project/redacted-js/",
-    "manifest_version": 2,
-    "minimum_chrome_version": "74",
-    "applications": {
-        "gecko": {
-            "id": "redacted@fourtonfish.com",
-            "strict_min_version": "67.0"
-        }
-    },
-    "icons": {
-        "16": "icons/icon-16.png",
-        "32": "icons/icon-32.png",
-        "48": "icons/icon-48.png",
-        "128": "icons/icon-128.png"
-    },
-    "permissions": [
-        "<all_urls>"
-    ],
-    "browser_action": {
-        "default_icon": "icon.png",
-        "default_popup": "popup.html"
-    },
-    "content_scripts": [{
-        "matches": ["<all_urls>"],
-        "js": ["scripts/content.js"]
-    }],
-    "web_accessible_resources":[
-        "fonts/*"
-    ]    
+  "name": "Redacted",
+  "version": "1.0.3",
+  "description": "Redact text on a page before taking a screenshot of it.",
+  "homepage_url": "https://fourtonfish.com/project/redacted-js/",
+  "manifest_version": 3,
+  "minimum_chrome_version": "93",
+  "applications": {
+    "gecko": {
+      "id": "redacted@stefaenbohacek.com",
+      "strict_min_version": "67.0"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": ["activeTab"],
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["scripts/content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "fonts/redacted-regular.eot",
+        "fonts/redacted-regular.svg",
+        "fonts/redacted-regular.ttf",
+        "fonts/redacted-regular.woff",
+        "fonts/redacted-script-bold.eot",
+        "fonts/redacted-script-bold.svg",
+        "fonts/redacted-script-bold.ttf",
+        "fonts/redacted-script-bold.woff",
+        "fonts/redacted-script-light.eot",
+        "fonts/redacted-script-light.svg",
+        "fonts/redacted-script-light.ttf",
+        "fonts/redacted-script-light.woff",
+        "fonts/redacted-script-regular.eot",
+        "fonts/redacted-script-regular.svg",
+        "fonts/redacted-script-regular.ttf",
+        "fonts/redacted-script-regular.woff",
+        "fonts/stylesheet.css"
+      ],
+      "matches": ["<all_urls>"],
+      "extension_ids": []
+    }
+  ]
 }

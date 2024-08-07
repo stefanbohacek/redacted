@@ -27,7 +27,7 @@ chrome.runtime.onMessage.addListener( function( request ){
           styles.classList.add( 'ftf-redacted-style' );
           styles.type = 'text/css';
           styles.textContent = '@font-face { font-family: "' + request.font + '"; src: url("'
-              + chrome.extension.getURL( `fonts/redacted-${ request.style }.woff` )
+              + chrome.runtime.getURL( `fonts/redacted-${ request.style }.woff` )
               + '"); }';
 
       document.head.appendChild( styles );
