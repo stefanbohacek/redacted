@@ -5,6 +5,12 @@
   "homepage_url": "https://fourtonfish.com/project/redacted-js/",
   "manifest_version": 3,
   "minimum_chrome_version": "93",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "redacted@stefaenbohacek.com",
+      "strict_min_version": "67.0"
+    }
+  },
   "icons": {
     "16": "icons/icon-16.png",
     "32": "icons/icon-32.png",
