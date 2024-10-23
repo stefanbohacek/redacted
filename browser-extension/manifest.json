@@ -1,6 +1,6 @@
 {
   "name": "Redacted",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Redact text on a page before taking a screenshot of it.",
   "homepage_url": "https://fourtonfish.com/project/redacted-js/",
   "manifest_version": 3,
@@ -17,7 +17,7 @@
     "48": "icons/icon-48.png",
     "128": "icons/icon-128.png"
   },
-  "permissions": ["activeTab"],
+  "permissions": [],
   "action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
